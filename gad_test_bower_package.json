@@ -1,0 +1,42 @@
+$ mkdir gad_test
+$ cd gad_test
+
+$ bower init
+[?] name: gad_test_bower_package
+[?] version: 0.1.0
+[?] description: Some example lib
+[?] main file: gad_test_bower_package.js
+[?] keywords: sample, events, plugin
+[?] authors: GAD
+[?] license: MIT
+[?] homepage: http://example.org
+[?] set currently installed components as dependencies? Yes
+[?] add commonly ignored files to ignore list? Yes
+[?] would you like to mark this package as private which prevents
+    it from being accidentally published to the registry? No
+
+{
+  name: 'gad_test_bower_package',
+  version: '0.1.0',
+  description: 'Some example lib',
+  main: 'gad_test_bower_package.js',
+  keywords: [
+    'sample',
+    'events',
+    'plugin'
+  ],
+  authors: [
+    'GAD'
+  ],
+  license: 'MIT',
+  homepage: 'http://example.org',
+  ignore: [
+    '**/.*',
+    'node_modules',
+    'bower_components',
+    'test',
+    'tests'
+  ]
+}
+
+[?] Looks good? Yes
